@@ -19,11 +19,10 @@
 }
 
 #header {
-	display: block;
 	width: 100%;
 	background-color: white;
 	color: #a1a1a1;
-	margin-bottom: 20px;
+	margin-bottom: -20px;
 	border-bottom: 1px solid #f4f4f4;
 	height: 55px;
 }
@@ -41,20 +40,24 @@
 	cursor: pointer;
 }
 
+#logo {
+	float: left;
+}
+
 #logo img {
 	width: 35px;
 	float: left;
 }
 
 #search {
+	width: 50%;
 	float: left;
-	position: relative;
-	margin-left: 220px;
-	margin-top: 10px;
+	margin-left: 240px;
+	padding-top: 10px;
 }
 
 .searchBox {
-	width: 1050px;
+	width: 120%;
 	height: 25px;
 	border-radius: 8px;
 	padding: 10px;
@@ -64,10 +67,9 @@
 }
 
 #nav-buttons {
-	float: left;
-	position: relative;
+	float: right;
 	margin-top: 2px;
-	margin-left: 220px;
+	margin-right: 20px;
 }
 
 #nav-buttons a {
